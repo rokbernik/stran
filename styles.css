@@ -284,6 +284,10 @@ header h2 {
 	letter-spacing: 0;
 }
 
+a img{
+	border:none;
+}
+
 #body {
 	background: none;
 	margin:0 auto;
@@ -755,12 +759,12 @@ nav ul li.selected a:hover {
     }
 	
 	.toggle-nav {
-        padding:10px;
+        padding:10px 13px 12px 13px;
         float:left;
         display:inline-block;
         background:#303030;
         color:#777;
-        font-size:21px;
+        font-size:20px;
         transition:color linear 0.15s;
     }	
 	
