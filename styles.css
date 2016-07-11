@@ -790,6 +790,15 @@ nav ul li.selected a:hover {
 		padding-right:20px;
 		padding-top:10px;
 	}
+	
+.menu ul .expand a {    
+    padding: 10px 10px 10px 10px;   
+    display: block;
+    text-transform: none;
+    background-color: #C80000;
+    border-top-color: #AA0000;
+}
+
 .menu {
     width: 100%;
     margin: 60px;
