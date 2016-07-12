@@ -877,10 +877,18 @@ visibility: visible;
 }
 
 .menu ul .expand ul a {
-    padding: 10px 10px 10px 50px;   
+    padding: 10px 10px 10px 45px;   
 	background-color: #E30000; 
     border-top-color: #CC0000;
 	
+}
+
+.menu ul .expand ul a:before{
+	content:none;
+}
+
+.menu .expand a:before {
+	content: " \25BC \00A0";;
 }
 
 .menu ul a:hover {
