@@ -596,7 +596,7 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 860px) and (-webkit-max-device-pixel-ratio: 1.3) and (-o-max-device-pixel-ratio: 13/10) and (max-resolution: 140dpi) {
 	.toggle-nav {
    		display:none;
 	}
@@ -830,11 +830,11 @@ nav ul li.selected a:hover {
 }
 
 .menu ul {
-    margin: 20px 0 0 0;  
+    margin: 20px 0px 0px 0px;  
     opacity: 0;
     visibility: visible;
     position: relative;   
-    left: 0;  
+    left: 0px;  
     background: linear-gradient(#444, #111);
 }
 
