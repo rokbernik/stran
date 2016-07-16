@@ -79,6 +79,10 @@ a:focus {
 	outline: none;
 }
 
+a img{
+	border:none;
+}
+
 
 a.button { 
     background-color: #AD0000;
