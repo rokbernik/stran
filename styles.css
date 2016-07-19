@@ -467,14 +467,7 @@ padding-bottom: 10px;
 lbar h6{
 	color: #575757;
 	}
-	
 
-	
-#rheader{
-	float:right;
-	width:42%;
-	margin-top:38px;
-	}
 
 	
 #spinner {
@@ -554,7 +547,7 @@ nav ul li a:hover {
    		display:none;
 	}
 	
-	#body {
+#body {
 	background: none;
 	margin:0 auto;
  	padding: 20px 0px 20px 20px;
@@ -566,35 +559,46 @@ nav {
 	background-color: #AD0000;
 	
 }
+
+#logo a img{
+	width:30%;
+}
+
+
+#rheader{
+	float:right;
+	width:42%;
+	margin-top:38px;
+	}
 	
-	#container {
+#container {
 	width: 1000px;
 	margin: 0px auto;
 	padding: 0px;
 	background-color: #fff;
 	box-shadow: 0px 0px 12px 5px #000000;
-	}
+}
 
-	#content {
+#content {
 		float: left;
 		width: 64%;
-	}
+}
 
-	article {
+article {
 		border-bottom: 2px solid #ddd;
 		margin-left:10px;
 		padding: 10px 0px 20px 10px;
 		width:100%;
-	}
+}
 	
-	.sidebar {
+.sidebar {
 		float: left;
 		width: 29%;
 		padding-right:20px;
 		padding-top:10px;
-	}
+}
 	
-	.menu {
+.menu {
     width: 70%;
     margin: 60px;
     background-color: #AD0000;   
@@ -763,14 +767,22 @@ nav {
 	background-color: #AD0000;
 	
 }
+
+#logo a img{
+	width:42%;
+}
+
+#rheader{
+	display:none;
+}
     
-    #body {
+#body {
 	background: none;
 	margin:0 auto;
  	padding: 20px 0px 20px 10px;
 }
 	
-	.toggle-nav {
+.toggle-nav {
         padding: 11px;
         float:left;
         display:inline-block;
@@ -778,35 +790,35 @@ nav {
         color:#777;
         font-size:21px;
         transition:color linear 0.15s;
-    }	
+}	
 	
 	
-	#container {
+#container {
 		width: 100%;
 		margin: 0px auto;
 		padding: 0px;
 		background-color: #fff;
-	}
+}
 
-	#content {
+#content {
 		float: left;
 		width: 100%;
-	}
+}
 
-	article {
+article {
 		border-bottom: 2px solid #ddd;
 		margin-left:0px;
 		padding: 10px 0px 20px 10px;
 		width:95%;
 
-	}
+}
 	
-	.sidebar {
+.sidebar {
 		float: left;
 		width: 96%;
 		padding-right:20px;
 		padding-top:10px;
-	}
+}
 	
 .menu ul .expand a {    
     padding: 10px 10px 10px 10px;   
