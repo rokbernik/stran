@@ -101,42 +101,6 @@ a.button:hover {
 	background-color: #940000;
 }
 
-form input, form select, form textarea {
-	padding: 5px;
-	color: #333333;
-	border: 1px solid #ddd;
-	border-right:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-	background-color:#fff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-}
-
-form input.formbutton {
-	border: none;
-	background: #AD0000;
-	color: #ffffff;
-	font-weight: bold;
-	padding: 6px 10px;
-	font-size: 12px;
-	font-family: Tahoma, Geneva, sans-serif;
-	letter-spacing: 1px;
-	width: auto;
-	overflow: visible;
-	
-}
-
-form.searchform input {
-  font-size: 15px;
-    padding: 6px;
-	width:250px;
-}
-
-form.searchform p {
-	margin: 5px 0;
-}
-
-
 span.required {
 	color: #f00;
 }
@@ -612,8 +576,9 @@ nav {
 	}
 
 	#content {
-		float: left;
-		width: 64%;
+		float: right;
+		width: 60%;
+		margin-right: 92px;
 	}
 
 	article {
@@ -626,7 +591,7 @@ nav {
 	.sidebar {
 		float: left;
 		width: 29%;
-		padding-right:20px;
+		padding-right:0px;
 		padding-top:10px;
 	}
 	
@@ -752,6 +717,42 @@ nav ul li.selected a:hover {
 
 }
 
+form input, form select, form textarea {
+	padding: 5px;
+	color: #333333;
+	border: 1px solid #ddd;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+form input.formbutton {
+	border: none;
+	background: #AD0000;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 10px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	letter-spacing: 1px;
+	width: auto;
+	overflow: visible;
+	
+}
+
+form.searchform input {
+  font-size: 15px;
+    padding: 6px;
+	width:250px;
+}
+
+form.searchform p {
+	margin: 5px 0;
+}
+
+
 @media only screen and (max-width: 1024px) {
 	nav ul.active, nav ul li ul.active, nav ul li ul li.active {
         display:none;
@@ -759,7 +760,7 @@ nav ul li.selected a:hover {
     	
 nav {
 	width: 100%;
-	height: 50px;
+	height: 52px;
 	background-color: #AD0000;
 	
 }
@@ -771,7 +772,7 @@ nav {
 }
 	
 	.toggle-nav {
-        padding:13px;
+        padding: 11px;
         float:left;
         display:inline-block;
         background:#303030;
@@ -941,6 +942,42 @@ nav ul li a:hover {
 footer .footer-content ul{
 	width:100%;	
 	}
+	
+form input, form select, form textarea {
+	padding: 5px;
+	color: #333333;
+	border: 1px solid #ddd;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+form input.formbutton {
+	border: none;
+	background: #AD0000;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 10px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	letter-spacing: 1px;
+	width: auto;
+	overflow: visible;
+	
+}
+
+form.searchform input {
+  font-size: 15px;
+    padding: 6px;
+	width:250px;
+}
+
+form.searchform p {
+	margin: 5px 0;
+}
+
 	
 }
 
