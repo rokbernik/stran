@@ -511,7 +511,7 @@ nav ul li a {
     color: #eee;
     display: block;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 0;
     line-height: 15px;
     margin: 0;
@@ -521,7 +521,7 @@ nav ul li a {
 }
 
 nav ul li ul a{
-font-size: 15px;
+font-size: 0.9375em;
 }
 
 
@@ -721,14 +721,14 @@ nav ul li.selected a:hover {
 }
 
 form input, form select, form textarea {
-	padding: 5px;
+	padding: 0.3125em;
 	color: #333333;
 	border: 1px solid #ddd;
 	border-right:1px solid #ccc;
 	border-bottom:1px solid #ccc;
 	background-color:#fff;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 0.8125em;
 }
 
 form input.formbutton {
@@ -737,7 +737,7 @@ form input.formbutton {
 	color: #ffffff;
 	font-weight: bold;
 	padding: 6px 10px;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-family: Tahoma, Geneva, sans-serif;
 	letter-spacing: 1px;
 	width: auto;
@@ -763,7 +763,7 @@ form.searchform p {
     	
 nav {
 	width: 100%;
-	height: 52px;
+	height: 3.43em;
 	background-color: #AD0000;
 	
 }
@@ -783,12 +783,13 @@ nav {
 }
 	
 .toggle-nav {
-        padding: 11px;
+        padding: 0.6875em;
         float:left;
+        overflow: hidden;
         display:inline-block;
         background:#303030;
         color:#777;
-        font-size:21px;
+        font-size:1.25em;
         transition:color linear 0.15s;
 }	
 	
@@ -821,7 +822,7 @@ article {
 }
 	
 .menu ul .expand a {    
-    padding: 10px 10px 10px 10px;   
+    padding: 0.625em 0.625em 0.625em 0.625em;   
     display: block;
     text-transform: none;
     background-color: #C80000;
@@ -830,7 +831,7 @@ article {
 
 .menu {
     width: 100%;
-    margin: 60px;
+    margin: 3.75em;
     background-color: #FFFFFF;    
 	box-shadow: 0 1px 1px #777;	 
     position:relative;
@@ -854,7 +855,7 @@ article {
 }
 
 .menu ul {
-    margin: 20px 0px 0px 0px;  
+    margin: 1.25em 0px 0px 0px;  
     opacity: 0;
     visibility: visible;
     position: relative;   
