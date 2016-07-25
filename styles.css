@@ -783,7 +783,10 @@ nav {
 }
 	
 .toggle-nav {
-        padding: 0.6875em;
+		height: 75%;
+        padding-left: 0.6875em;
+        padding-right: 0.6875em;
+        padding-top:0.6875em;
         float:left;
         overflow: hidden;
         display:inline-block;
