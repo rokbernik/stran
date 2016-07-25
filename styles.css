@@ -483,13 +483,6 @@ lbar h6{
 }
 
 
-#iskanje{
-	margin-right:20px;
-	padding: 10px 0 8px 10px;
-	float:right;
-	}
-
-
 nav ul {
 	
 	list-style: none;
@@ -756,6 +749,13 @@ form.searchform p {
 }
 
 
+#iskanje{
+	margin-right:20px;
+	padding: 10px 0 8px 10px;
+	float:right;
+	}
+
+
 @media only screen and (max-width: 1024px) {
 	nav ul.active, nav ul li ul.active, nav ul li ul li.active {
         display:none;
@@ -992,6 +992,11 @@ form.searchform p {
 	margin: 5px 0;
 }
 
+#iskanje{
+	margin-right:20px;
+	padding: 12px 0 6px 10px;
+	float:right;
+	}
 	
 }
 
