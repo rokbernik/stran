@@ -783,7 +783,7 @@ nav {
 }
 	
 .toggle-nav {
-		height: 75%;
+		height: 2,0625em;
         padding-left: 0.6875em;
         padding-right: 0.6875em;
         padding-top:0.6875em;
@@ -834,7 +834,6 @@ article {
 
 .menu {
     width: 100%;
-    margin: 3.75em;
     background-color: #FFFFFF;    
 	box-shadow: 0 1px 1px #777;	 
     position:relative;
