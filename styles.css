@@ -214,6 +214,10 @@ ul, ol {
 	margin: 0 0 35px 35px;
 }
 
+ul.end{
+	margin: 0 0 0px 35px;
+}
+
 li {
 	padding-bottom: 5px;
 }
@@ -816,7 +820,7 @@ article {
 		width:95%;
 
 }
-	
+
 .sidebar {
 		float: left;
 		width: 96%;
